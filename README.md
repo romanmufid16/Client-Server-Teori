@@ -18,10 +18,3 @@ public class HelloWorldConfiguration{
 }
 ```
 <br>
-**Membuat Application Context**
-<br>
-```java
-ApplicationContext context = new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
-
-Assertions.assertNotNull(context);
-```
