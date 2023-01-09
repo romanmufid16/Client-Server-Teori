@@ -21,6 +21,7 @@ public class HelloWorldConfiguration{
 # Singleton
 Singleton adalah salah satu Design Patterns untuk pembuatan objek, dimana sebuah object hanya dibuat satu kali saja <br> <br>
 Dan ketika kita membutuhkan object tersebut, kita hanya akan menggunakan object yang sama <br> <br>
+
 ```java
 public class Database {
     private static Database database;
@@ -37,6 +38,7 @@ public class Database {
     }
 }
 ```
+
 ```java
     var database1 = Database.getInstance();
     var database2 = Database.getInstance();
